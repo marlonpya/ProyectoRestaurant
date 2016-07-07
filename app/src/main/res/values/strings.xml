@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ProyectoRestaurant</string>
+
+    <string-array name="platos">
+        <item>Arroz con pollo</item>
+        <item>Tallarines</item>
+        <item>Seco de pollo</item>
+        <item>Pescado Frito</item>
+    </string-array>
+
+</resources>

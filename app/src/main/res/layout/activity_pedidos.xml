@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="app.com.proyectorestaurant.PedidosActivity">
+
+    <TextView
+        android:id="@+id/lblPlatos"
+        android:background="@android:color/background_light"
+        android:drawableEnd="@android:drawable/ic_input_add"
+        android:text="Escoga un plato"
+        android:gravity="center"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:id="@+id/txtCantidad"
+        android:hint="ingrese una cantidad"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btnPedir"
+        android:text="Pedir"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:text="Regresar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+</LinearLayout>
